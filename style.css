@@ -273,3 +273,33 @@ nav {
   height: 110dvh;
   box-shadow: 0px -10px 12px var(--shadow-clr);
 }
+
+.inner-carrousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10dvh;
+}
+
+.box {
+  background: var(--prim-acc-clr);
+  color: var(--text-clr);
+  margin: 1em;
+  width: clamp(16rem, 30vw, 40rem);
+  border-radius: var(--rounded);
+  aspect-ratio: 4 / 3;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: var(--mid);
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem;
+}
+
+.box a {
+  font-size: var(--small);
+}

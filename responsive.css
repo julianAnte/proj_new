@@ -15,10 +15,10 @@
     width: 50%;
   }
 
-  #theme-switch,
+  /* #theme-switch,
   #menu-toggle {
     scale: 0.8;
-  }
+  } */
 
   #theme-switch:hover {
     transform: translateY(0);

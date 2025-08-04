@@ -1,18 +1,5 @@
 /* roots */
 :root {
-  /* colors */
-  --background-clr: #f8f9fa;
-  --background-sec-clr: #e4e7e9;
-  --background-reverse-clr: #121212;
-  --background-reverse-sec-clr: #1b1816;
-  --nav-clr: linear-gradient(90deg, #c0c0c0ec, #c0c0c085, #c0c0c0ec);
-  --prim-acc-clr: #0077b6;
-  --sec-acc-clr: #00b4d8;
-  --text-clr: #8fec38;
-  --text-hvr-acc: rgb(238, 178, 198);
-  --acc-clr-light: rgb(240, 153, 182);
-  --shadow-clr: #ffffff70;
-
   /* font sizes */
   --tiny: 0.1rem;
   --extra-small: 0.5rem;
@@ -82,23 +69,6 @@
   /* test attr */
   --angle: 0deg;
   --test: linear-gradient(rgb(162, 253, 162), rgb(98, 255, 98));
-  --bg-img: url(images/2025-06-12_22.43.45.png);
   --base-hight: 1em;
   --squared-hight: calc(var(--base-hight) * 4);
-}
-
-.darkmode {
-  /* dark colors */
-  --background-clr: #121212;
-  --background-sec-clr: #222222;
-  --background-reverse-clr: #f8f9fa;
-  --background-reverse-sec-clr: #e4e7e9;
-  --nav-clr: linear-gradient(90deg, #474747ec, #47474785, #474747ec);
-  --prim-acc-clr: #00b4d8;
-  --sec-acc-clr: #90e0ef;
-  --text-clr: #e9ecef;
-  --bg-img: url(images/2025-06-05_22.30.07.png);
-  --text-hvr-acc: rgb(226, 126, 160);
-  --shadow-clr: #00000070;
-  --acc-clr-light: rgb(245, 186, 206);
 }

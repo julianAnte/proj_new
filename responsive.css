@@ -108,3 +108,17 @@
     --title: 1.5rem;
   }
 }
+
+@media (min-width: 1440px) {
+  .background {
+    height: 100dvh;
+    translate: 25dvw 20dvh;
+    scale: 1.7;
+  }
+}
+
+@media (min-width: 1440px) and (--bg-img: url(images/2025-06-12_22.4300.45.png)) {
+  .background {
+    scale: 1.5;
+  }
+}
